@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import "./App.css";
 
-const API_URL = "/api";
+const API_URL = "https://hotel-booking-w74j.onrender.com/api";
 
 function App() {
   const [rooms, setRooms] = useState([]);
